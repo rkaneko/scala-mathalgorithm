@@ -7,7 +7,7 @@ Math algorithm written with Scala . I wrote this code to study Scala lang .
 Samples
 ---
 
-[Münchausen Number](http://mathworld.wolfram.com/MuenchhausenNumber.html"Münchausen Number")
+[Munchausen Number](http://mathworld.wolfram.com/MuenchhausenNumber.html "MünchausenNumber")
 
 + on REPL
 

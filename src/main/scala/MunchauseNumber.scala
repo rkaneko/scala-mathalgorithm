@@ -1,12 +1,13 @@
 package com.rkaneko.algorithm.math
 
 /**
- * The number turning upon ( which means 'hirakinaori su in Japanese ) .
+ * MuenchhauseNumber algorithm .
+ * see : http://mathworld.wolfram.com/MuenchhausenNumber.html
  */
-object NTU {
+object MuenchhausenNumber {
   
   /**
-   * Find ntu from range(1, upperLimit) .
+   * Find MuenchhausenNumber from range(1, upperLimit) .
    *
    * @param upperLimit upperLimit must be 1 and more .
    */

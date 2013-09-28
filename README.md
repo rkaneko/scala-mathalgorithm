@@ -7,20 +7,19 @@ Math algorithm written with Scala . I wrote this code to study Scala lang .
 Samples
 ---
 
-[Munchausen Number](http://mathworld.wolfram.com/MuenchhausenNumber.html "MünchausenNumber")
+[Muenchausen Number](http://mathworld.wolfram.com/MuenchhausenNumber.html "MuenchhausenNumber")
 
 + on REPL
 
-        scala> import com.rkaneko.algorithm.math.NTU
-        import com.rkaneko.algorithm.math.NTU
+        scala> import com.rkaneko.algorithm.math.MuenchhausenNumber
+        import com.rkaneko.algorithm.math.MuenchhausenNumber
+       
+        scala> val mnOpt = MuenchhausenNumber.find(10000)
+        mnOpt: Option[Array[Int]] = Some([I@6920e5f1)
 
-        scala> val a = NTU.find(10000)
-        a: Option[Array[Int]] = Some([I@6939944f)
-
-        scala> a match {
-         |   case Some(array) => array mkString " "
-         |   case None => "not found!"
-         | }
-        res2: String = 1 3435
-
+        scala> mnOpt match {
+             |   case Some(mn) => mn mkString " "
+             |   case None => "not found!"
+             | }
+        res0: String = 1 3435
 

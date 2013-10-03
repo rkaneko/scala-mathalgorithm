@@ -7,9 +7,9 @@ Math algorithm written with Scala . I wrote this code to study Scala lang .
 Samples
 ---
 
-[Muenchausen Number](http://mathworld.wolfram.com/MuenchhausenNumber.html "MuenchhausenNumber")
+[Muenchhausen Number](http://mathworld.wolfram.com/MuenchhausenNumber.html "MuenchhausenNumber")
 
-+ on REPL
++ on sbt console
 
         scala> import com.rkaneko.algorithm.math.MuenchhausenNumber
         import com.rkaneko.algorithm.math.MuenchhausenNumber
